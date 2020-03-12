@@ -1,0 +1,176 @@
+/*-- Base CSS --*/
+html{
+    font-family: Verdana;
+    color: #FFFFFF;
+}
+body{	
+    margin: 0;
+	background-color:#1A1A1E;
+}
+/*-- Base CSS End --*/
+
+/*-- CSS Extra --*/
+.fixed{
+    position: absolute;
+    overflow: hidden;
+}
+/*-- CSS Extra End --*/
+
+/*-- Layout --*/
+.column{
+    float: left;
+    width: 100%;
+    padding: 0;
+}
+.column.1{
+    width: 25%;
+    background-color: red;
+}
+.column.2{
+    width: 65%;
+    background-color: blue;
+}
+.column.3{
+    width: 10%;
+    background-color: green;
+}
+/*-- Layout End --*/
+
+/*-- Top Navigation --*/
+.topnav {
+    z-index: 10;
+    overflow: hidden;
+    overflow: hidden;
+    position: fixed;
+    box-sizing: content-box;  
+    width: 100%;
+    background-color: #0C0C0D;
+}
+.topnav a {
+    float: left;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 18px 16px 18px 16px;
+    margin-bottom: 2;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #D6DDF6;
+  color: #1A1A1E;
+}
+.topnav a.active {
+  background-color: #1A1A1E;
+  color: #D6DDF6;
+}
+.topnav a.title {
+    margin-left: 62px;
+    background-color: transparent;
+    color: #FFFFFF;
+}
+.topnav a.logo {
+    position: fixed;
+    margin-left: 3px;
+    padding: 6px;
+    background-color: transparent;
+}
+.bottomtext {
+    font-family: "04b";
+    margin-top: 120px;
+    padding: 8px;
+    background-color: #0C0C0D;
+    color: #8C8C8C;
+    text-align: center;
+}
+/*-- Top Navigation End --*/
+
+/*-- customStyle/CSS --*/
+/*-- Body --*/
+.entrybody{
+    width: 100%;
+    height: 100%;
+    padding-top: 120px;
+}
+.entry{
+    max-width: 800px;
+    max-height: 490px;
+    min-height: 490px;
+    margin: auto;
+    background-color:#242428;
+}
+/*-- Content --*/
+/*-- List Page --*/
+.operator.list{
+    max-height: 490px;
+    overflow-y: auto;
+}
+.operator.list img{
+    margin: 0px 4px 0px 4px ;
+    width: 80px;
+    border: 8px;
+    border-color: white;
+}
+/*-- Operator Page --*/
+.operator.select{
+    max-height: 490px;
+    overflow-y: hidden;
+}
+/*-- Naming --*/
+.op-name{
+    font-size: 62px;
+    text-decoration: underline;
+    position: absolute;
+    margin:360px 0px 0px 122px;
+    cursor: default;
+}
+.artist-name{
+    font-size: 28px;
+    position: absolute;
+    margin:434px 0px 0px 122px;
+    cursor: zoom-in;
+}
+img.op-class{
+    width: 112px;
+    font-size: 28px;
+    margin:368px 0px 0px 8px;
+}
+img.op-faction{
+    float: left;
+    width: 296px;
+    font-size: 28px;
+    opacity: 65%;
+    margin:-22px 0px 0px -28px;
+}
+/*-- Operator Image --*/
+img.op-img{
+    width: 320px;
+    position: static;
+    display: block;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*-- Content --*/
+/*-- Buttons --*/
+div.return{
+    position: absolute;
+    width: 200px;
+    height: 48px;
+    background-color: gray; 
+    margin: 8px 0px 0px 8px;
+}
+div.profile{
+    position: fixed;
+    min-width: 96px;
+    min-height: 48px;
+    background-color: gray;
+    margin: 8px 0px 0px 700px;
+}
+div.voice{
+    position: fixed;
+    min-width: 96px;
+    min-height: 48px;
+    background-color: gray;
+    margin: 68px 0px 0px 700px;
+}
+
